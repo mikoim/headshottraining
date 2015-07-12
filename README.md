@@ -6,7 +6,7 @@ This plugin has been created based on XARiUS's Headshot Only plugin.
  * Shoot heads, or you will suicide.
 
 ## Shoot body except head
-|        | Bot | Player |
+|  A / V | Bot | Player |
 |:------:|:---:|:------:|
 |   Bot  |  -  |    -   |
 | Player |  ☠  |    ☠   |
