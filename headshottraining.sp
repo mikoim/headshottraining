@@ -42,7 +42,7 @@ public Action:EventPlayerHurt(Handle:event, const String:name[], bool:dontBroadc
   new health = GetEventInt(event, "health");
   new armor = GetEventInt(event, "armor");
 
-  if (hitgroup != 1 && attacker != victim && victim != 0 && attacker != 0)
+  if (hitgroup != 1 && attacker != victim && victim != 0 && attacker != 0 && !IsFakeClient(attacker))
   {
     if (dhealth > 0)
     {
